@@ -14,6 +14,8 @@ window = sg.Window('网络安全理论与技术', layout)
 en_message = []
 ks=[]
 
+
+
 while True:
     event, values = window.read()
     if event == None:  # 如果用户关闭窗口或点击`Cancel`
